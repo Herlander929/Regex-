@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BCAE39E-532D-41B9-98E6-B614F5EC6341}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoMan</RootNamespace>
+    <AssemblyName>AutoMan</AssemblyName>
+    <ApplicationIcon>g.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlteraTransicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlteraTransicao.Designer.cs">
+      <DependentUpon>AlteraTransicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Automato.cs" />
+    <Compile Include="BuscaEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaEstado.Designer.cs">
+      <DependentUpon>BuscaEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditaEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditaEstado.Designer.cs">
+      <DependentUpon>EditaEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estado.cs" />
+    <Compile Include="EstadoAgrupado.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InpuxBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InpuxBox.Designer.cs">
+      <DependentUpon>InpuxBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinimizaAutomatoAFD.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlteraTransicao.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AlteraTransicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaEstado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BuscaEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditaEstado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditaEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InpuxBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InpuxBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SaveDataAutomato.cs" />
+    <Compile Include="Serializer.cs" />
+    <Compile Include="Simbolo.cs" />
+    <Compile Include="TransformaAFNDE_AFND.cs" />
+    <Compile Include="Transicao.cs" />
+    <Compile Include="TrasnformaAFND_AFD.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="g.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

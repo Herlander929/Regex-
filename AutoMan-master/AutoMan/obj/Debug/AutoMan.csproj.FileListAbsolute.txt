@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\bin\Debug\AutoMan.exe
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\bin\Debug\AutoMan.pdb
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.AlteraTransicao.resources
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.BuscaEstado.resources
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.EditaEstado.resources
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.FrmMain.resources
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.Help.resources
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.InputBox.resources
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.Properties.Resources.resources
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.exe
+C:\Users\Usuario\Desktop\AutoMan-master\AutoMan\obj\Debug\AutoMan.pdb
